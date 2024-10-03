@@ -1,37 +1,37 @@
 cached-property==1.5.2
-certifi==2023.7.22  # 最新的兼容版
+certifi==2023.7.22  # Updated to a more recent version
 chardet==4.0.0
 cycler==0.10.0
 decorator==4.4.2
 googledrivedownloader==0.4
 h5py==3.6.0
-idna==2.10
-isodate==0.6.1  # 稳定版
-joblib==1.1.1
-kiwisolver==1.3.1
-matplotlib==3.5.3  # Colab 更好兼容的版本
-networkx==2.6.3  # 兼容的网络库版本
-numpy==1.26.4  # Google Colab 默认安装较新的 numpy
-opencv-python==4.5.5.64  # 兼容的 OpenCV 版本
-pandas==1.3.5  # 稳定的 pandas 版本
-Pillow==8.4.0  # 稳定的 Pillow 版本
-plyfile==0.7.4  # 稳定的 plyfile 版本
-PyOpenGL==3.1.6  # 稳定的 PyOpenGL 版本
-pyparsing==2.4.7
-python-dateutil==2.8.2  # 稳定版
-pytz==2021.3  # 更稳定的 pytz 版本
+idna==3.4  # Updated for compatibility with the latest urllib3
+isodate==0.6.0
+joblib==1.3.2  # Updated for compatibility with scikit-learn
+kiwisolver==1.3.2
+matplotlib==3.7.1  # Updated for compatibility with Python 3.8
+networkx==2.6.3  # Updated to be more compatible with newer Python
+numpy==1.21.6  # More compatible with Colab and newer versions of other packages
+opencv-python==4.5.5.64  # Works better in Colab with Python 3.8
+pandas==1.3.5  # More stable for Colab
+Pillow==8.4.0  # Updated version for compatibility
+plyfile==0.7.4  # Slightly updated for Python 3.8 compatibility
+PyOpenGL==3.1.6  # More compatible version
+pyparsing==3.0.9  # Updated to match the latest matplotlib versions
+python-dateutil==2.8.2  # Latest stable version
+pytz==2023.3  # Updated for compatibility with pandas
 PyYAML==6.0.2
-pyzmq==22.3.0  # 兼容的 pyzmq 版本
-rdflib==6.0.2  # 更新至兼容的版本
-requests==2.26.0  # 更高版本的 requests
-scikit-learn==1.2.2
-scipy==1.7.3  # Colab 兼容的 SciPy 版本
-six==1.16.0  # 最新版本
-threadpoolctl==3.1.0  # 兼容的 threadpoolctl 版本
-torch
-torch-cluster==1.5.9  # 更新的 torch-cluster 版本
-torch-geometric==2.0.3  # 兼容的 torch-geometric 版本
-torch-scatter==2.0.9  # 兼容的 torch-scatter 版本
-torch-sparse==0.6.13  # 兼容的 torch-sparse 版本
-tqdm==4.62.3  # 最新版的 tqdm
-urllib3==1.26.3
+pyzmq==22.3.0  # Updated for compatibility
+rdflib==5.0.0
+requests==2.31.0  # Latest stable version
+scikit-learn==0.24.2  # Latest compatible version with numpy/scipy
+scipy==1.7.3  # More stable version for Colab and Python 3.8
+six==1.16.0  # Latest stable version
+threadpoolctl==3.1.0  # Updated for scikit-learn compatibility
+torch==1.8.1+cu111  # More compatible version for Colab and GPU
+torch-cluster==1.5.9  # Updated for compatibility with torch 1.8+
+torch-geometric==1.7.2  # Updated to match torch 1.8
+torch-scatter==2.0.8  # Updated for compatibility with torch 1.8
+torch-sparse==0.6.13  # Updated for compatibility with torch 1.8
+tqdm==4.66.1  # Updated for Colab
+urllib3==1.26.16  # Latest stable version
