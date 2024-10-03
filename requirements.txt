@@ -28,7 +28,7 @@ scikit-learn==1.0.2
 scipy==1.7.3  # More stable version for Colab and Python 3.8
 six==1.16.0  # Latest stable version
 threadpoolctl==3.1.0  # Updated for scikit-learn compatibility
-torch==1.8.1+cu111  # More compatible version for Colab and GPU
+torch==1.13.1+cu116  # More compatible version for Colab and GPU
 torch-cluster==1.5.9  # Updated for compatibility with torch 1.8+
 torch-geometric==1.7.2  # Updated to match torch 1.8
 torch-scatter==2.0.8  # Updated for compatibility with torch 1.8
