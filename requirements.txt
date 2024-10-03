@@ -24,7 +24,7 @@ PyYAML==6.0.2
 pyzmq==22.3.0  # Updated for compatibility
 rdflib==5.0.0
 requests==2.31.0  # Latest stable version
-scikit-learn==0.24.2  # Latest compatible version with numpy/scipy
+scikit-learn==1.0.2
 scipy==1.7.3  # More stable version for Colab and Python 3.8
 six==1.16.0  # Latest stable version
 threadpoolctl==3.1.0  # Updated for scikit-learn compatibility
