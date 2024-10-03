@@ -28,7 +28,7 @@ scikit-learn==1.2.2
 scipy==1.7.3  # Colab 兼容的 SciPy 版本
 six==1.16.0  # 最新版本
 threadpoolctl==3.1.0  # 兼容的 threadpoolctl 版本
-torch==1.10.0+cu113  # Colab 默认提供的 PyTorch 版本（与 CUDA 兼容）
+torch
 torch-cluster==1.5.9  # 更新的 torch-cluster 版本
 torch-geometric==2.0.3  # 兼容的 torch-geometric 版本
 torch-scatter==2.0.9  # 兼容的 torch-scatter 版本
